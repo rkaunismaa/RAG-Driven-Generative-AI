@@ -17,3 +17,9 @@ Creating a local mamba environment for this repository:
  7) mamba install conda-forge::nltk
  8) mamba install conda-forge::spacy
  9) mamba install conda-forge::pandas
+
+The notebooks from the book all default to using OpenAI, but I also want to run them against a local model served up through LMStudio. The folder 'LMStudio' will be where these notebooks reside. 
+
+## Monday, November 11, 2024
+
+Running 'LMStudio/Chapter01/RAG_Overview.ipynb' against the 4090 is sooo much faster than running it against the 2070 super!

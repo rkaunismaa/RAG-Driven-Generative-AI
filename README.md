@@ -23,3 +23,9 @@ The notebooks from the book all default to using OpenAI, but I also want to run 
 ## Monday, November 11, 2024
 
 Running 'LMStudio/Chapter01/RAG_Overview.ipynb' against the 4090 is sooo much faster than running it against the 2070 super!
+
+Working through Chapter 2 of the book requires a bunch of more installs, so I am going to back up the current 'rag_genai' environment to, say, 'rag_genai_20241111' and continue with installing to rag_genai.
+
+mamba create --name rag_genai_20241111 --clone rag_genai
+
+

@@ -39,3 +39,9 @@ Whelp, right away I am getting errors with deeplake ... gonna install the target
 11) pip install deeplake==3.9.18 
 
 Nice! That fixed the error. 'Chapter02/2_Embeddings_vector_store.ipynb' all runs locally, generating the local vector store into the directory 'VectorStore'.
+
+12) mamba install conda-forge::sentence-transformers
+13) pip install markdown
+14) mamba install conda-forge::ipywidgets
+
+'Chapter02/3_Augmented_Generation.ipynb' now all runs locally.

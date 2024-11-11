@@ -28,4 +28,14 @@ Working through Chapter 2 of the book requires a bunch of more installs, so I am
 
 mamba create --name rag_genai_20241111 --clone rag_genai
 
+Hmm no conda package for deeplake.
 
+10) pip install deeplake
+
+This installed deeplake 4.0.2 which was released '26 minutes ago' ... ! 11:09 am ... and nothing else was installed, which is good.
+
+Whelp, right away I am getting errors with deeplake ... gonna install the target version of deeplake, then try again ... 
+
+11) pip install deeplake==3.9.18 
+
+Nice! That fixed the error. 'Chapter02/2_Embeddings_vector_store.ipynb' all runs locally, generating the local vector store into the directory 'VectorStore'.

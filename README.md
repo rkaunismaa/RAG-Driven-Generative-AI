@@ -45,3 +45,13 @@ Nice! That fixed the error. 'Chapter02/2_Embeddings_vector_store.ipynb' all runs
 14) mamba install conda-forge::ipywidgets
 
 'Chapter02/3_Augmented_Generation.ipynb' now all runs locally.
+
+## Wednesday, November 13, 2024
+
+Starting to go through Chapter 3. More packages are required, so let's make another backup of our environment. 
+
+mamba create --name rag_genai_20241113 --clone rag_genai
+
+ 15) mamba install conda-forge::lllama-index  # this is the latest version, 0.11.23
+ 16) pip install llama-index-vector-store-deeplake  # this is the latest version, 0.2.2
+ 17) mamba install conda-forge::tabulate # this is the latest version, 0.9.0

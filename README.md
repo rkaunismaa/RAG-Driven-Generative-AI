@@ -55,3 +55,9 @@ mamba create --name rag_genai_20241113 --clone rag_genai
  15) mamba install conda-forge::lllama-index  # this is the latest version, 0.11.23
  16) pip install llama-index-vector-store-deeplake  # this is the latest version, 0.2.2
  17) mamba install conda-forge::tabulate # this is the latest version, 0.9.0
+
+To try running llamaindex using LMStudio, I had to install the following packages:
+
+ 18) pip install llama-index-llms-lmstudio  # this is the latest version, 0.2.1
+ 19) pip install llama-index-embeddings-huggingface # this is the latest version, 0.3.1
+ 20) pip install llama-index-embeddings-instructor # this is the latest version, 0.2.1

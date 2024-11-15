@@ -61,3 +61,19 @@ To try running llamaindex using LMStudio, I had to install the following package
  18) pip install llama-index-llms-lmstudio  # this is the latest version, 0.2.1
  19) pip install llama-index-embeddings-huggingface # this is the latest version, 0.3.1
  20) pip install llama-index-embeddings-instructor # this is the latest version, 0.2.1
+
+ ## Friday, November 15, 2024
+
+ Hmm looks like we need flask ...
+
+  21) mamba install conda-forge::flask
+
+  And now we need OpenCV ...
+
+  22) mamba install conda-forge::opencv # this is the latest version, 4.10.0 ... I did NOT run this, because it would have changed way too mnay things! Argh, same with versions 4.9.0, 4.8.1 and 4.8.0. So, I think I will first back up the current environment to, say, rag_genai_20241115, then try to install opencv 4.9.0 and see what happens.
+
+  mamba create --name rag_genai_20241115 --clone rag_genai
+
+I will install opencv to this 20241115 environment, then try to run the notebook.
+
+The biggest change I see is replacing the cuda version of pytorch to the cpu only version ... 

@@ -77,3 +77,16 @@ To try running llamaindex using LMStudio, I had to install the following package
 I will install opencv to this 20241115 environment, then try to run the notebook.
 
 The biggest change I see is replacing the cuda version of pytorch to the cpu only version ... 
+
+## Thursday, December 12, 2024
+
+Yup gonna get back to this today ... I currently have this ..
+
+  rag_genai                /home/rob/miniforge3/envs/rag_genai
+  rag_genai_20241111       /home/rob/miniforge3/envs/rag_genai_20241111
+  rag_genai_20241113       /home/rob/miniforge3/envs/rag_genai_20241113
+  rag_genai_20241115       /home/rob/miniforge3/envs/rag_genai_20241115
+
+on the kitchen computer. 
+
+I am going to try and run 'LMStudio/Chapter03/Deep_Lake_LlamaIndex_OpenAI_RAG.ipynb' in the rag_genai_20241115 environment.
